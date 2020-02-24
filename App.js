@@ -1,3 +1,5 @@
-const logger = require('./logger'); 
+const os = require('os');
 
-logger.print('This is the message');
+var totalMemory = os.freemem();
+
+console.log(totalMemory);
