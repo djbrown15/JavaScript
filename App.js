@@ -1,5 +1,4 @@
-const os = require('os');
 
-var totalMemory = os.freemem();
-
-console.log(totalMemory);
+emitter.on('Junior',(details) =>{
+    console.log('Junior was called', details);
+})
