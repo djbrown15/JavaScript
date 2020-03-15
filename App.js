@@ -1,3 +1,4 @@
-const logger = require('./logger'); 
 
-logger.print('This is the message');
+emitter.on('Junior',(details) =>{
+    console.log('Junior was called', details);
+})
